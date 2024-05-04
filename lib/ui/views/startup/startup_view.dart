@@ -14,16 +14,22 @@ class StartupView extends StackedView<StartupViewModel> {
     StartupViewModel viewModel,
     Widget? child,
   ) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
-              'STACKED',
-              style: TextStyle(fontSize: 40, fontWeight: FontWeight.w900),
+            const Center(
+              child: Text(
+                'ELIA SHIFT MANAGEMENT',
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.w900),
+              ),
             ),
-            Row(
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.05,
+            ),
+            const Row(
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text('Loading ...', style: TextStyle(fontSize: 16)),
