@@ -1,4 +1,4 @@
-package com.example.shift_management_system
+package com.example.elia_app
 
 import io.flutter.embedding.android.FlutterActivity
 

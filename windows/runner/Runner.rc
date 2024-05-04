@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "shift_management_system" "\0"
+            VALUE "FileDescription", "elia_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "shift_management_system" "\0"
+            VALUE "InternalName", "elia_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "shift_management_system.exe" "\0"
-            VALUE "ProductName", "shift_management_system" "\0"
+            VALUE "OriginalFilename", "elia_app.exe" "\0"
+            VALUE "ProductName", "elia_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

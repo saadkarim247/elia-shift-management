@@ -1,6 +1,6 @@
 {
-    "name": "shift_management_system",
-    "short_name": "shift_management_system",
+    "name": "elia_app",
+    "short_name": "elia_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
