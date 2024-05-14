@@ -136,7 +136,7 @@ class LoginView extends StackedView<LoginViewModel> {
                     child: ElevatedButton(
                       onPressed: viewModel.isFormValid
                           ? () {
-                              print('Saad');
+                              print('Login');
                             }
                           : null,
                       style: ElevatedButton.styleFrom(

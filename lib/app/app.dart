@@ -1,3 +1,4 @@
+import 'package:elia_app/services/network_info_service.dart';
 import 'package:elia_app/ui/bottom_sheets/notice/notice_sheet.dart';
 import 'package:elia_app/ui/dialogs/info_alert/info_alert_dialog.dart';
 import 'package:elia_app/ui/views/home/home_view.dart';
@@ -18,6 +19,7 @@ import 'package:stacked_services/stacked_services.dart';
     LazySingleton(classType: BottomSheetService),
     LazySingleton(classType: DialogService),
     LazySingleton(classType: NavigationService),
+    LazySingleton(classType: NetworkInfoServiceImpl),
     // @stacked-service
   ],
   bottomsheets: [
@@ -28,5 +30,6 @@ import 'package:stacked_services/stacked_services.dart';
     StackedDialog(classType: InfoAlertDialog),
     // @stacked-dialog
   ],
+  logger: StackedLogger(),
 )
 class App {}
